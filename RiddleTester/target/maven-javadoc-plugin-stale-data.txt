@@ -1,0 +1,50 @@
+@options
+@packages
+@argfile
+-encoding
+'UTF-8'
+-protected
+-source
+'14'
+-sourcepath
+'D:/Programming/Java/IST-242/RiddleTester/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2022. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'D:/Programming/Java/IST-242/RiddleTester/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'RiddleTester 1.0-SNAPSHOT API'
+-linkoffline
+'https://docs.oracle.com/en/java/javase/14/docs/api' 'D:/Programming/Java/IST-242/RiddleTester/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'RiddleTester 1.0-SNAPSHOT API'
+com.superuserdev.riddletester
+'D:/Programming/Java/IST-242/RiddleTester/src/main/java/com/superuserdev/riddletester/Main.java'
+'D:/Programming/Java/IST-242/RiddleTester/src/main/java/com/superuserdev/riddletester/Riddle.java'
+D:\Programming\Java\IST-242\RiddleTester\src\main\java = 1642543040323
+D:\Programming\Java\IST-242\RiddleTester\target\site\apidocs\allclasses-index.html = 1642546015941
+D:\Programming\Java\IST-242\RiddleTester\target\site\apidocs\allpackages-index.html = 1642546015950
+D:\Programming\Java\IST-242\RiddleTester\target\site\apidocs\constant-values.html = 1642546015859
+D:\Programming\Java\IST-242\RiddleTester\target\site\apidocs\deprecated-list.html = 1642546015887
+D:\Programming\Java\IST-242\RiddleTester\target\site\apidocs\element-list = 1642546015842
+D:\Programming\Java\IST-242\RiddleTester\target\site\apidocs\help-doc.html = 1642546015962
+D:\Programming\Java\IST-242\RiddleTester\target\site\apidocs\index-all.html = 1642546015914
+D:\Programming\Java\IST-242\RiddleTester\target\site\apidocs\index.html = 1642546015956
+D:\Programming\Java\IST-242\RiddleTester\target\site\apidocs\member-search-index.js = 1642546015911
+D:\Programming\Java\IST-242\RiddleTester\target\site\apidocs\member-search-index.zip = 1642546015912
+D:\Programming\Java\IST-242\RiddleTester\target\site\apidocs\overview-tree.html = 1642546015879
+D:\Programming\Java\IST-242\RiddleTester\target\site\apidocs\package-search-index.js = 1642546015897
+D:\Programming\Java\IST-242\RiddleTester\target\site\apidocs\package-search-index.zip = 1642546015906
+D:\Programming\Java\IST-242\RiddleTester\target\site\apidocs\script.js = 1642546015971
+D:\Programming\Java\IST-242\RiddleTester\target\site\apidocs\search.js = 1642546015977
+D:\Programming\Java\IST-242\RiddleTester\target\site\apidocs\stylesheet.css = 1642546015968
+D:\Programming\Java\IST-242\RiddleTester\target\site\apidocs\system-properties.html = 1642546015953
+D:\Programming\Java\IST-242\RiddleTester\target\site\apidocs\type-search-index.js = 1642546015910
+D:\Programming\Java\IST-242\RiddleTester\target\site\apidocs\type-search-index.zip = 1642546015910

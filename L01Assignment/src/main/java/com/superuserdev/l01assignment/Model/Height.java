@@ -48,8 +48,10 @@ public class Height {
     }
     
     /**
+     * Overridden superclass object toString() method
      * @return the height in a format of feet'inch"
      */
+    @Override
     public String toString(){
         return feet + "\'" + inch + "\"";
     }

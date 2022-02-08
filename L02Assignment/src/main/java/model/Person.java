@@ -1,13 +1,10 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package model;
 
-/**
- *
- * @author Arya
+/*
+ * @author Arya Samarth
+ * The Pennsylvania State University
+ * aps6607@psu.edu
  */
 public class Person {
     private String name;
@@ -102,5 +99,13 @@ public class Person {
      */
     public void setHighSchool(String highSchool) {
         this.highSchool = highSchool;
+    }
+    
+    /**
+     * Overrides method in the Person class
+     */
+    @Override
+    public String toString(){
+        return "Name: " + name + " | Height: "+ height.toString() + " | Weight: " + weight + " lbs | Hometown: " + hometown + " | High School: "+ highSchool;
     }
 }

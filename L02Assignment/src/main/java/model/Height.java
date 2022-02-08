@@ -18,6 +18,12 @@ public class Height {
         this.feet = feet;
         this.inch = inch;
     }
+    
+    Height(int inch){
+        this.feet = inch/12;
+        this.inch = inch%12;
+    }
+
 
     /**
      * @return the feet
@@ -54,7 +60,7 @@ public class Height {
         return feet + "\'" + inch + "\"";
     }
     
-    public int getHeightIninches(){
+    public int getHeightInInches(){
         return feet * 12 + inch;
     }
 }

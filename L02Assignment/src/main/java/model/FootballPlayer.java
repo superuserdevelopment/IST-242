@@ -23,6 +23,7 @@ public class FootballPlayer extends Person {
         this.number = number;        
         this.position = position;        
     }
+    
     /**
      * @return the number of the football player
      */
@@ -49,5 +50,13 @@ public class FootballPlayer extends Person {
      */
     public void setPosition(String position) {
         this.position = position;
+    }
+    
+    /**
+     * Overrides method in the Person class
+     */
+    @Override
+    public String toString(){
+        return super.toString() + " | Number: " + number + " | Position: " + position;
     }
 }

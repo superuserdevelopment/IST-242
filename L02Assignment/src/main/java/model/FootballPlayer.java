@@ -11,13 +11,18 @@ public class FootballPlayer extends Person {
     
     private String position;
 
-    
+    /**
+     * Default/Empty constructor
+     */
     public FootballPlayer(){
-        number = 0;        
-        position = "";
-        
+        //Written -1 so as to not clash with anyone with a number zero
+        number = -1;        
+        position = "";        
     }
     
+    /**
+     * Parameterized constructor
+     */
     public FootballPlayer(int number, String name, String position, Height height, int weight, String hometown, String highSchool){
         super(name, height, weight, hometown, highSchool);
         this.number = number;        

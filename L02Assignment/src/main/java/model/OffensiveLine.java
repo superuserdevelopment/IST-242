@@ -1,8 +1,6 @@
 
 package model;
 
-import java.util.Objects;
-
 /*
  * @author Arya Samarth
  * The Pennsylvania State University
@@ -11,16 +9,22 @@ import java.util.Objects;
 public class OffensiveLine {
     private FootballPlayer center, offensiveGuard, offensiveTackle;
     
-    
+    /**
+     * Parameterized constructor
+     */
     public OffensiveLine(FootballPlayer center, FootballPlayer offensiveGuard, FootballPlayer offensiveTackle){
         this.center = center;
         this.offensiveGuard = offensiveGuard;
         this.offensiveTackle = offensiveTackle;
     }
+    
+    /**
+     * Default/Empty constructor
+     */
     public OffensiveLine(){
-        center = null;
-        offensiveGuard = null;
-        offensiveTackle = null;
+        center = new FootballPlayer();
+        offensiveGuard = new FootballPlayer();
+        offensiveTackle = new FootballPlayer();
     }
 
     /**
@@ -67,10 +71,24 @@ public class OffensiveLine {
     
     /**
      * Overrides method in the Object class
+     * Returns the String representation of the Offensive Line
      */
     @Override
     public String toString(){ 
-        if(Objects.isNull(center) || Objects.isNull(offensiveGuard) || Objects.isNull(offensiveTackle)) return null;
         return "Center: " + center.toString() + "\nOffensive Guard: " + offensiveGuard.toString() + "\nOffensive Tackle: " + offensiveTackle.toString();
+    }
+    
+    /**
+     * Returns the average weight in lbs of the offensive line
+     */
+    public int getAverageWeight(){
+        return Math.round((center.getWeight() + offensiveGuard.getWeight() + offensiveTackle.getWeight())/3f);
+    }
+    
+    /**
+     * Returns the average height of the offensive line
+     */
+    public Height getAverageHeight(){
+        return new Height(Math.round((center.getHeight().getHeightInInches() + offensiveGuard.getHeight().getHeightInInches() + offensiveTackle.getHeight().getHeightInInches())/3f));
     }
 }

@@ -13,6 +13,9 @@ public class Person {
     private String hometown;
     private String highSchool;
     
+    /**
+     * Default/Empty constructor
+     */
     public Person()
     {
         name = "";
@@ -22,6 +25,9 @@ public class Person {
         highSchool = "";
     }
     
+    /**
+     * Parameterized constructor
+     */
     public Person(String name, Height height, int weight, String hometown, String highSchool)
     {
         this.name = name;

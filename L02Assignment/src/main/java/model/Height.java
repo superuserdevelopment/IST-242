@@ -9,16 +9,25 @@ public class Height {
     private int feet;
     private int inch;
     
+    /**
+     * Default constructor
+     */
     Height(){
         feet = 0;
         inch = 0;
     }
     
+    /**
+     * Parameterized constructor
+     */
     Height(int feet, int inch){
         this.feet = feet;
         this.inch = inch;
     }
     
+    /**
+     * Parameterized constructor
+     */
     Height(int inch){
         this.feet = inch/12;
         this.inch = inch%12;

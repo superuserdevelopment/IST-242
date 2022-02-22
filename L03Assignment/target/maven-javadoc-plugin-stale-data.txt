@@ -1,0 +1,61 @@
+@options
+@packages
+@argfile
+-encoding
+'UTF-8'
+-protected
+-source
+'14'
+-sourcepath
+'D:/Programming/Java/IST-242/L03Assignment/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2022. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'D:/Programming/Java/IST-242/L03Assignment/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'L03Assignment 1.0-SNAPSHOT API'
+-linkoffline
+'https://docs.oracle.com/en/java/javase/14/docs/api' 'D:/Programming/Java/IST-242/L03Assignment/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'L03Assignment 1.0-SNAPSHOT API'
+model
+'D:/Programming/Java/IST-242/L03Assignment/src/main/java/App.java'
+'D:/Programming/Java/IST-242/L03Assignment/src/main/java/model/FootballPlayer.java'
+'D:/Programming/Java/IST-242/L03Assignment/src/main/java/model/Height.java'
+'D:/Programming/Java/IST-242/L03Assignment/src/main/java/model/Model.java'
+'D:/Programming/Java/IST-242/L03Assignment/src/main/java/model/OffensiveLine.java'
+'D:/Programming/Java/IST-242/L03Assignment/src/main/java/model/Person.java'
+'D:/Programming/Java/IST-242/L03Assignment/src/main/java/model/TableMember.java'
+D:\Programming\Java\IST-242\L03Assignment\src\main\java\App.java = 1645559206863
+D:\Programming\Java\IST-242\L03Assignment\src\main\java = 1645559971372
+D:\Programming\Java\IST-242\L03Assignment\target\site\apidocs\allclasses-index.html = 1645560094335
+D:\Programming\Java\IST-242\L03Assignment\target\site\apidocs\allpackages-index.html = 1645560094346
+D:\Programming\Java\IST-242\L03Assignment\target\site\apidocs\App.html = 1645560093973
+D:\Programming\Java\IST-242\L03Assignment\target\site\apidocs\constant-values.html = 1645560094160
+D:\Programming\Java\IST-242\L03Assignment\target\site\apidocs\deprecated-list.html = 1645560094264
+D:\Programming\Java\IST-242\L03Assignment\target\site\apidocs\element-list = 1645560094125
+D:\Programming\Java\IST-242\L03Assignment\target\site\apidocs\help-doc.html = 1645560094364
+D:\Programming\Java\IST-242\L03Assignment\target\site\apidocs\index-all.html = 1645560094330
+D:\Programming\Java\IST-242\L03Assignment\target\site\apidocs\index.html = 1645560094265
+D:\Programming\Java\IST-242\L03Assignment\target\site\apidocs\member-search-index.js = 1645560094323
+D:\Programming\Java\IST-242\L03Assignment\target\site\apidocs\member-search-index.zip = 1645560094327
+D:\Programming\Java\IST-242\L03Assignment\target\site\apidocs\overview-summary.html = 1645560094358
+D:\Programming\Java\IST-242\L03Assignment\target\site\apidocs\overview-tree.html = 1645560094255
+D:\Programming\Java\IST-242\L03Assignment\target\site\apidocs\package-search-index.js = 1645560094302
+D:\Programming\Java\IST-242\L03Assignment\target\site\apidocs\package-search-index.zip = 1645560094319
+D:\Programming\Java\IST-242\L03Assignment\target\site\apidocs\package-summary.html = 1645560094125
+D:\Programming\Java\IST-242\L03Assignment\target\site\apidocs\package-tree.html = 1645560094144
+D:\Programming\Java\IST-242\L03Assignment\target\site\apidocs\package-use.html = 1645560094214
+D:\Programming\Java\IST-242\L03Assignment\target\site\apidocs\script.js = 1645560094370
+D:\Programming\Java\IST-242\L03Assignment\target\site\apidocs\search.js = 1645560094373
+D:\Programming\Java\IST-242\L03Assignment\target\site\apidocs\stylesheet.css = 1645560094368
+D:\Programming\Java\IST-242\L03Assignment\target\site\apidocs\system-properties.html = 1645560094352
+D:\Programming\Java\IST-242\L03Assignment\target\site\apidocs\type-search-index.js = 1645560094320
+D:\Programming\Java\IST-242\L03Assignment\target\site\apidocs\type-search-index.zip = 1645560094322

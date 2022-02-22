@@ -1,0 +1,7 @@
+model\Model.class
+model\Height.class
+model\OffensiveLine.class
+model\FootballPlayer.class
+model\TableMember.class
+App.class
+model\Person.class

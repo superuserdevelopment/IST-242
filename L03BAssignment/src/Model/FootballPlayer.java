@@ -1,11 +1,14 @@
-package model;
-
-import java.util.ArrayList;
-
+package Model;
 /*
  * @author Arya Samarth
  * The Pennsylvania State University
  * aps6607@psu.edu
+ */
+
+import java.util.ArrayList;
+
+/**
+ * This class is used to store the details of a Football Player
  */
 public class FootballPlayer extends Person implements TableMember{
 
@@ -24,6 +27,13 @@ public class FootballPlayer extends Person implements TableMember{
     
     /**
      * Parameterized constructor
+     * @param number stores the jersey number of the Football Player
+     * @param position stores the position of the Football Player
+     * @param name stores the name of the Football Player
+     * @param height stored the height of the Football Player
+     * @param weight stores the weight of the Football Player
+     * @param hometown stores the home town of the Football Player
+     * @param highSchool stores the high school of the Football Player
      */
     public FootballPlayer(int number, String name, String position, Height height, int weight, String hometown, String highSchool){
         super(name, height, weight, hometown, highSchool);
@@ -75,19 +85,19 @@ public class FootballPlayer extends Person implements TableMember{
     public String getAttribute(int n){
         switch(n){
             case 0:
-                return super.getName();             
+                return Integer.toString(number);            
             case 1:
-                return super.getHeight().toString();
+                return super.getName();                  
             case 2:
-                return Integer.toString(super.getWeight());
+                return position;  
             case 3:
-                return super.getHometown();
+                return super.getHeight().toString();                
             case 4:
-                return super.getHighSchool();                
+                return Integer.toString(super.getWeight());                              
             case 5:
-                return Integer.toString(number);                
+                return super.getHometown();               
             case 6:
-                return position;                
+                return super.getHighSchool();                               
             default:
                 return "Attribute not found";
         }
@@ -101,19 +111,19 @@ public class FootballPlayer extends Person implements TableMember{
     public String getAttributeName(int n){
         switch(n){
             case 0:
-                return "name";
-            case 1:
-                return "height";
-            case 2:
-                return "weight";
-            case 3:
-                return "hometown";
-            case 4:
-                return "highSchool";
-            case 5:
                 return "number";
+            case 1:
+                return "name";                
+            case 2:
+                return "position";                
+            case 3:
+                return "height";                
+            case 4:
+                return "weight";                
+            case 5:
+                return "hometown";
             case 6:
-                return "position";
+                return "highSchool";
             default: 
                 return "Attribute not found";
         }

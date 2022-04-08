@@ -30,7 +30,7 @@ public class Student
     //---------- METHODS --------
     public String getInfo()
     {
-        return "NAME = " + firstName + "  " + lastName + "  " + "Age = " + age + ", address=" + address.toString() + " credits=" + credits;
+        return "NAME = " + firstName + "  " + lastName + "  " + "Age = " + age + ", address=" + address.toString() + " " + credits;
     }
 
     //------------------------------------------------

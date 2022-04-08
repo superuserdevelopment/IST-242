@@ -1,5 +1,11 @@
 package View;
 
+/*
+ * @author Arya Samarth
+ * The Pennsylvania State University
+ * aps6607@psu.edu
+ */
+
 import Model.Student;
 import java.util.ArrayList;
 import javax.swing.JButton;

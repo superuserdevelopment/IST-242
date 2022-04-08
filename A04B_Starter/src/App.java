@@ -1,4 +1,5 @@
 
+
 /*
  * @author Arya Samarth
  * The Pennsylvania State University
@@ -11,7 +12,10 @@ import View.View;
 
 class App
 {
-
+    /**
+     * Main method to run the app
+     * @param args 
+     */
     public static void main(String[] args)
     {
         Model model = new Model();

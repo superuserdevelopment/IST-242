@@ -39,5 +39,14 @@ public class Model
         if(n >= sts.size()) return null;
         return sts.get(n);
     }
+    
+    /** 
+     * @return the ArrayList of Student objects in the ArrayList according to the argument passed
+     */
+    public ArrayList<Student> findStudents(){
+        return sts;
+    }
+    
+    
 
 }
